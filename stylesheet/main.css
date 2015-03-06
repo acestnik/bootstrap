@@ -1,11 +1,75 @@
 body {
-	background-color:#A2A8A9;
+	background-color:#C5E7F7;
 }
 
-.page-header{
-	color: #000;
+h1 {
+	font-family: 'Comfortaa', cursive;
+	font-weight:700; 
+	color: #454E85;
 }
+
+h2 {
+	font-family: 'Comfortaa', cursive;
+	font-weight:700; 
+	color: #454E85;
+	padding-left:2%; 
+}
+
+.container {
+	font-family: 'Comfortaa', cursive;
+	font-weight:700; 
+	color: #454E85;
+}
+
+
+.info {
+	background-color:#1F75B3;
+	color:#C5E7F7;
+	font-size:20px; 
+	padding:2%; 
+	width:auto; 
+	text-align:center;
+} 
 
 .caption{
 	text-align: center;
 }
+
+
+.row {
+	padding:2%; 
+}
+
+.thumbnail {
+	padding-top:5%; 
+}
+
+#services {
+	color: #454E85;
+}
+
+#testimonials {
+	font-family: 'Comfortaa', cursive;
+	font-weight:700;
+	font-style: italic;
+	padding-left:10%;
+	padding-right:10%; 
+	color: #454E85 
+}
+
+
+#contact {
+	padding-bottom: 5%;
+	font-family: 'Comfortaa', cursive;
+	font-weight:700; 
+	color: #454E85;
+	text-align:center;
+	font-size:20px; 
+}
+
+.footer {
+	font-family: 'Comfortaa', cursive;
+	font-weight:400; 
+	text-align:center;
+}
+
