@@ -21,9 +21,15 @@ h2 {
 	color: #454E85;
 }
 
+.box {
+	background-color:#1F75B3;
+	padding-top:2%; 
+	border-radius:10px; 
+}
 
 .info {
-	background-color:#1F75B3;
+	font-family: 'Comfortaa', cursive;
+	font-weight:400; 
 	color:#C5E7F7;
 	font-size:20px; 
 	padding:2%; 
@@ -33,15 +39,23 @@ h2 {
 
 .caption{
 	text-align: center;
+	font-size:15px; 
 }
 
 
 .row {
-	padding:2%; 
+	padding:2%;
+	font-family: 'Comfortaa', cursive;
+	font-weight:400;  
 }
 
-.thumbnail {
+.thumb {
 	padding-top:5%; 
+	background-color:#fff;
+	color:#000;
+	margin: 0; 
+	border-radius:10px;
+	padding:2%; 
 }
 
 #services {
@@ -73,3 +87,18 @@ h2 {
 	text-align:center;
 }
 
+@media (max-width: 714px) {
+  .col-sm-6 {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom:5%; 
+  }
+
+  	.caption {
+  		font-size:15px; 
+  	}
+
+  	#map iframe {
+  		max-width:80%; 
+  	}
+}
